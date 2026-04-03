@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* This applies the background color to the absolute base of the app */
+@layer base {
+  body {
+    @apply bg-gray-100 dark:bg-gray-950 text-gray-900 dark:text-gray-100 transition-colors duration-200;
+  }
+}
